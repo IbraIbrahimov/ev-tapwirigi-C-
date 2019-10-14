@@ -28,7 +28,7 @@ namespace ConsoleAppTapwirig2
             int result1 =Convert.ToInt32( Math.Pow((a + b), 2)-c);
             Console.WriteLine($"Netice: {result1}");
             Console.ReadKey();
-            while (Console.ReadKey().Key != ConsoleKey.Tab) { }
+            while (Console.ReadKey().Key != ConsoleKey.Escape) { }
         }
     }
 }
