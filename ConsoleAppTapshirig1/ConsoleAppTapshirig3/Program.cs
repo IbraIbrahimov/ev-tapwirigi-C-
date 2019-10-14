@@ -30,7 +30,8 @@ namespace ConsoleAppTapshirig3
             double resultSqrt = Math.Pow((a * b * c), 1.0/3);
             Console.WriteLine($"Ededlerin hasilinin 3cu dereceeden koku: {resultSqrt}");
             Console.WriteLine($"A,B ve C ededlirinin ededi ortasi: {resultAvg}");
-            Console.ReadKey();
+           
+            while (Console.ReadKey().Key != ConsoleKey.Escape) { }
 
         }
     }

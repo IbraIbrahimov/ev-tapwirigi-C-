@@ -30,7 +30,8 @@ namespace ConsoleAppTapshirig1
             Console.WriteLine($"Birinci netice: {a}+{b}={result1}");
             Console.WriteLine($"Ikinci netice: {b}+{c}={result2}");
             Console.WriteLine($"Ucuncu netice: {a}+{c}={result3}");
-            Console.ReadKey();
+            
+            while (Console.ReadKey().Key != ConsoleKey.Enter) { }
 
         }
     }
